@@ -78,7 +78,7 @@ class _DashboardAdminState extends State<DashboardAdmin> {
         children: [
           DrawerHeader(
             decoration: BoxDecoration(
-              color: Colors.teal,
+              color: const Color.fromARGB(154, 150, 12, 0),
             ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
@@ -90,7 +90,7 @@ class _DashboardAdminState extends State<DashboardAdmin> {
                   color: Colors.white,
                 ),
                 Text(
-                  "Restu Wijaya",
+                  "Nyoman Wisatria",
                   style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.bold,
@@ -117,8 +117,8 @@ class _DashboardAdminState extends State<DashboardAdmin> {
             leading: Icon(Icons.dashboard),
             title: Text('Dashboard'),
             trailing: Icon(Icons.navigate_next),
-            iconColor: Colors.teal,
-            textColor: Colors.teal,
+            iconColor: const Color.fromARGB(255, 6, 6, 6),
+            textColor: const Color.fromARGB(255, 8, 9, 9),
           ),
           ListTile(
             onTap: () {
@@ -128,8 +128,8 @@ class _DashboardAdminState extends State<DashboardAdmin> {
             leading: Icon(Icons.people),
             title: Text('Data Mahasiswa'),
             trailing: Icon(Icons.navigate_next),
-            iconColor: Colors.teal,
-            textColor: Colors.teal,
+            iconColor: const Color.fromARGB(255, 6, 6, 6),
+            textColor: const Color.fromARGB(255, 3, 3, 3),
           ),
           ListTile(
             onTap: () {
@@ -139,8 +139,8 @@ class _DashboardAdminState extends State<DashboardAdmin> {
             leading: Icon(Icons.people),
             title: Text('Data Dosen'),
             trailing: Icon(Icons.navigate_next),
-            iconColor: Colors.teal,
-            textColor: Colors.teal,
+            iconColor: const Color.fromARGB(255, 3, 3, 3),
+            textColor: const Color.fromARGB(255, 6, 6, 6),
           ),
           ListTile(
             onTap: () {
@@ -150,8 +150,8 @@ class _DashboardAdminState extends State<DashboardAdmin> {
             leading: Icon(Icons.people),
             title: Text('Data Pegawai'),
             trailing: Icon(Icons.navigate_next),
-            iconColor: Colors.teal,
-            textColor: Colors.teal,
+            iconColor: const Color.fromARGB(255, 10, 11, 11),
+            textColor: const Color.fromARGB(255, 8, 8, 8),
           ),
           ListTile(
             onTap: () {
@@ -161,8 +161,8 @@ class _DashboardAdminState extends State<DashboardAdmin> {
             leading: Icon(Icons.logout),
             title: Text('Logout'),
             trailing: Icon(Icons.navigate_next),
-            iconColor: Colors.teal,
-            textColor: Colors.teal,
+            iconColor: const Color.fromARGB(255, 12, 13, 13),
+            textColor: const Color.fromARGB(255, 9, 10, 10),
           ),
         ],
       ),
